@@ -5,7 +5,7 @@ import { Nav } from 'react-bootstrap'
 const Header = () => {
     return (
         <>
-          <Nav className="d-flex, align-items-center justify-content-center" 
+          <Nav className="d-flex, justify-content-end" 
             activeKey="/home">
             <Nav.Item>
               <Nav.Link><Link to="/">Home</Link></Nav.Link>
