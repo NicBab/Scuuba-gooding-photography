@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Nav } from 'react-bootstrap'
+import './css/Header.css'
 
 const Header = () => {
     return (
-        <>
-          <Nav className="d-flex, justify-content-end" 
-            activeKey="/home">
+        <div className="header">
+         <div className="name">SG Designs</div>
+          <Nav id="nav">
             <Nav.Item>
               <Nav.Link><Link to="/">Home</Link></Nav.Link>
             </Nav.Item>
@@ -20,7 +21,7 @@ const Header = () => {
               <Nav.Link><Link to="/bio">Bio</Link></Nav.Link>
             </Nav.Item>
           </Nav>
-        </>
+        </div>
     )
 }
 

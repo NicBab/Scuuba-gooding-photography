@@ -1,0 +1,14 @@
+.header {
+   display: flex;
+   justify-content: end;
+}
+
+.name {
+   display: flex;
+   align-items: center;
+   flex-grow: 2;
+   margin-left: 15px;
+}
+
+
+
