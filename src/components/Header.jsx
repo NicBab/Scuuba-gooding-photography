@@ -6,7 +6,7 @@ import './css/Header.css'
 const Header = () => {
     return (
         <div className="header">
-         <div className="name">SG Designs</div>
+         <div className="name">SG Photography</div>
           <Nav id="nav">
             <Nav.Item>
               <Nav.Link><Link to="/">Home</Link></Nav.Link>
