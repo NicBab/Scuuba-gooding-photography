@@ -1,5 +1,26 @@
 .foot {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     background-color: rgb(57, 56, 56);
+}
+
+.footName {
+    background-color: rgb(57, 56, 56);
+    margin: 5px;
+}
+
+.instagramIcon {
+    background-color: rgb(57, 56, 56);
+    margin: 3px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.facebookIcon {
+    background-color: rgb(57, 56, 56);
+    margin: 3px;
+    padding: 5px;
+    cursor: pointer;
 }
