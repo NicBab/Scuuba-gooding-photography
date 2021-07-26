@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Nav } from 'react-bootstrap'
+import { cart } from '../icons/index'
 import './css/Header.css'
 
 const Header = () => {
@@ -19,6 +20,9 @@ const Header = () => {
               </Nav.Item>
              <Nav.Item>
               <Nav.Link><Link to="/bio" className="fa-bio">Bio</Link></Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link><Link to="/cart" className="fa-cart">{cart}</Link></Nav.Link>
             </Nav.Item>
           </Nav>
         </div>
