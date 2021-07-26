@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import { Home, Shop, Contact, Bio } from './pages/index'
+import { Home, Shop, Contact, Bio, Cart } from './pages/index'
 import { Header, Footer } from './components/index'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -13,6 +13,7 @@ function App() {
           <Route path="/shop" component={Shop} />
           <Route path="/contact" component={Contact} />
           <Route path="/bio" component={Bio} />
+          <Route paht="/cart" component={Cart} />
         </Switch>
       <Footer />
     </Router>
