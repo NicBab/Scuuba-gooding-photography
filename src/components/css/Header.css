@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Aldrich');
+
 .header {
    display: flex;
    align-items: center;
@@ -18,26 +20,32 @@
 .fa-title {
    color: white;
    text-decoration : none;
+   margin-right: 2rem;
+   font-family: Aldrich;
 }
 
 .fa-home {
    color: white;
    text-decoration : none;
+   font-family: Aldrich;
 }
 
 .fa-shop {
    color: white;
    text-decoration : none;
+   font-family: Aldrich;
 }
 
 .fa-contact {
    color: white;
    text-decoration : none;
+   font-family: Aldrich;
 }
 
 .fa-bio {
    color: white;
    text-decoration : none;
+   font-family: Aldrich;
 }
 
 .fa-cart {
