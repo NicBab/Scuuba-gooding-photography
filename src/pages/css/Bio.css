@@ -8,6 +8,8 @@
     color: white;
 }
 
-p {
-    text-indent: 2em;
-}
+ figCaption {
+     color: white;
+     text-indent: 2em;
+     padding: 2em;
+ }
