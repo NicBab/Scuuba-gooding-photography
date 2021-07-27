@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <>
             <div>
-                <img className="img-fluid" style={{height: "100vh", width: "100vw"}}
+                <img className="img-fluid"
                     src={homePic}
                     alt="glaciermilkycomposite">
                 </img>
