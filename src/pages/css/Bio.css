@@ -1,3 +1,13 @@
 .bio {
-    background-color: rgb(128, 122, 122);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+    font-size: 16pt;
+    color: white;
+}
+
+p {
+    text-indent: 2em;
 }
