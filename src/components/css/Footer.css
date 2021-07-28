@@ -1,3 +1,4 @@
+@import url("https://fonts.google.com/specimen/Style+Script");
 .foot {
     display: flex;
     align-items: center;
@@ -9,6 +10,12 @@
 .footName {
     background-color: black;
     margin: 5px;
+}
+
+.stellar {
+    text-align: center;
+   font-size: 10pt;
+   font-family: "Style Script";
 }
 
 

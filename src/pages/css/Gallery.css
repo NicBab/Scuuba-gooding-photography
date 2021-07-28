@@ -1,0 +1,12 @@
+.gallery {
+    text-align: center;
+    background-color: rgb(128, 122, 122);
+}
+
+.sr-only {
+    display : none;
+}
+
+.carousel-caption {
+    opacity: 0.5;
+}

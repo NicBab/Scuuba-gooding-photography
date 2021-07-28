@@ -5,11 +5,11 @@ import './css/SocialIcons.css'
 const SocialIcons = () => {
 
     const onInstaClick = () => {
-        window.open("")
+        window.open("https://www.instagram.com/scubagooding.photo/")
     }
     
     const onFacebookClick = () => {
-        window.open("")
+        window.open("https://www.facebook.com/scubagoodingphoto")
     }
 
     return (
