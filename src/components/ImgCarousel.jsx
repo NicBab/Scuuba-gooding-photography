@@ -20,7 +20,6 @@ const ImgCarousel = () => {
                 />
                 <Carousel.Caption>
                  <h3>Kremmling Sunset</h3>
-                  <p>some info here</p>
                 </Carousel.Caption>
               </Carousel.Item>
 
@@ -32,7 +31,6 @@ const ImgCarousel = () => {
                 />
                 <Carousel.Caption>
                  <h3>Spouting Rock Moonrise</h3>
-                  <p>some info here</p>
                 </Carousel.Caption>
             </Carousel.Item>
 
@@ -44,7 +42,6 @@ const ImgCarousel = () => {
                 />
                 <Carousel.Caption>
                  <h3>Wood Window</h3>
-                  <p>some info here</p>
                 </Carousel.Caption>
             </Carousel.Item>
 
@@ -55,8 +52,7 @@ const ImgCarousel = () => {
                 alt="glacier milkyway comp"
                 />
                 <Carousel.Caption>
-                 <h3>Glacier MilkyWAy composite</h3>
-                  <p>some info here</p>
+                 <h3>Glacier MilkyWay composite</h3>
                 </Carousel.Caption>
             </Carousel.Item>
 
@@ -68,7 +64,6 @@ const ImgCarousel = () => {
                 />
                 <Carousel.Caption>
                  <h3>Sloans Lake Sunset</h3>
-                  <p>some info here</p>
                 </Carousel.Caption>
             </Carousel.Item>
 
@@ -80,7 +75,6 @@ const ImgCarousel = () => {
                 />
                 <Carousel.Caption>
                  <h3>Foggy Meadow</h3>
-                  <p>some info here</p>
                 </Carousel.Caption>
             </Carousel.Item>
 
@@ -92,7 +86,6 @@ const ImgCarousel = () => {
                 />
                 <Carousel.Caption>
                  <h3>Mesa Sunburst</h3>
-                  <p>some info here</p>
                 </Carousel.Caption>
             </Carousel.Item>
 
@@ -104,7 +97,6 @@ const ImgCarousel = () => {
                 />
                 <Carousel.Caption>
                  <h3>Mesa Arch Sunburst</h3>
-                  <p>some info here</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
