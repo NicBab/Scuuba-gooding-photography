@@ -4,12 +4,12 @@
     justify-content: center;
     background-color: black;
     padding: 10px;
-    font-size: 16pt;
     color: white;
 }
 
  figCaption {
      color: white;
      text-indent: 2em;
+     font-size: 18pt;
      padding: 2em;
  }
