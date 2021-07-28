@@ -7,6 +7,17 @@
     display : none;
 }
 
+.d-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .carousel-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
     opacity: 0.5;
+    margin: auto;
 }
