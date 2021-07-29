@@ -1,17 +1,22 @@
 import React from 'react'
 import './css/Home.css'
-import woodWindow from '../images/woodwindowfinal.jpg'
+import { Container } from 'react-bootstrap'
+import mesaSunBurst from '../images/MesaSunBurst.jpg'
 
 const Home = () => {
     return (
         <>
+          <Container 
+            className="d-flex justify-content-center" 
+            style={{maxWidth: "100vw", maxHeight: "80vh"}}>
             <div>
                 <img className="img-fluid"
-                    src={woodWindow}
-                    alt="woodwindow">
+                    src={mesaSunBurst}
+                    alt="Mesa SunBurst">
                 </img>
-            </div>
-        </>
+             </div>
+          </Container>
+       </>
     )
 }
 
