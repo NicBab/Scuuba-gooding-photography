@@ -1,11 +1,10 @@
 import React from 'react'
-import { ImgCarousel } from '../components/index'
 import './css/Gallery.css'
+import { ImgCarousel } from '../components/index'
 
 const Gallery = () => {
-    return (
-        <ImgCarousel />
-    )
+    return <ImgCarousel />
 }
 
 export default Gallery
+
