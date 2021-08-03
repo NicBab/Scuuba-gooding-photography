@@ -9,7 +9,7 @@ const Home = () => {
           <Container 
             className="d-flex justify-content-center" 
             style={{maxWidth: "100vw", maxHeight: "80vh"}}>
-            <div>
+            <div className="homeImg">
                 <img className="img-fluid"
                     src={mesaSunBurst}
                     alt="Mesa SunBurst">

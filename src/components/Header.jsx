@@ -12,10 +12,11 @@ const Header = () => {
 
     return (
         <div className="header">
-          <div className="name">
+           <div className="name">
             <Link to="/" className="fa-title">SG Photography</Link>
-             <SocialIcons /></div>
-           <Nav id="nav">
+             <SocialIcons />
+           </div>
+           <div id="nav">
               <Nav.Item>
                 <Nav.Link><Link to="/" className="fa-home">Home</Link></Nav.Link>
                </Nav.Item>
@@ -31,7 +32,7 @@ const Header = () => {
               <Nav.Item>
                 <Nav.Link><Link to="/contact"className="fa-contact">Contact</Link></Nav.Link>
                </Nav.Item>
-           </Nav>
+           </div>
         </div>
     )
 }

@@ -1,5 +1,6 @@
 .icons {
     display: flex;
+    align-items: center;
 }
 
 .instagramIcon {
@@ -10,6 +11,13 @@
 }
 
 .facebookIcon {
+    background-color: black;
+    margin: 3px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.gitHubIcon {
     background-color: black;
     margin: 3px;
     padding: 5px;
