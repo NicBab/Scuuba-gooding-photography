@@ -8,14 +8,18 @@
 }
 
 .footName {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    font-family: Aldrich; 
     background-color: black;
     margin: 5px;
 }
 
 .stellar {
     text-align: center;
-   font-size: 10pt;
-   font-family: "Style Script";
+    font-size: 10pt;
+    font-family: "Style Script";
 }
 
 

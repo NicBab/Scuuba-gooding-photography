@@ -1,25 +1,29 @@
 .icons {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .instagramIcon {
+    display: flex;
     background-color: black;
-    margin: 3px;
-    padding: 5px;
+    margin: 2px;
+    padding: 2px;
     cursor: pointer;
 }
 
 .facebookIcon {
+    display: flex;
     background-color: black;
-    margin: 3px;
-    padding: 5px;
+    margin: 2px;
+    padding: 2px;
     cursor: pointer;
 }
 
 .gitHubIcon {
+    display: flex;
     background-color: black;
-    margin: 3px;
-    padding: 5px;
+    margin: 2px;
+    padding: 2px;
     cursor: pointer;
 }

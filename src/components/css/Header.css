@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Aldrich');
+
 
 .header {
    display: flex;
    align-items: center;
-   justify-content: end;
+   justify-content: space-around;
    padding: 5px;
 }
 
@@ -11,9 +11,9 @@
    display: flex;
    align-items: center;
    flex-grow: 2;
-   margin-left: 15px;
    font-size: 2em;
    color: white;
+   margin: auto;
 }
 
 #nav {
@@ -24,45 +24,67 @@
 }
 
 .fa-title {
+   display: flex;
+   align-items: center; 
+   justify-content: start;
    color: white;
    text-decoration : none;
-   margin-right: 2rem;
    font-family: Aldrich;
-}.fa-title:hover{ color: yellow; }
+   padding: 3px;
+   margin: 5px;
+}.fa-title:hover { 
+   color: white;
+   text-shadow: .5px .5px; 
+}
 
 .fa-home {
    color: white;
    text-decoration : none;
    font-family: Aldrich;
-}.fa-home:hover { color: yellow; }
+}.fa-home:hover { 
+   color: white;  
+   text-shadow: .5px .5px; 
+}
 
 .fa-gallery {
    color: white;
    text-decoration : none;
    font-family: Aldrich;
-}.fa-gallery:hover{ color: yellow; }
+}.fa-gallery:hover { 
+   color: white;  
+   text-shadow: .5px .5px; 
+}
 
 .fa-shop {
    color: white;
    text-decoration : none;
    font-family: Aldrich;
-}.fa-shop:hover{ color: yellow; }
+}.fa-shop:hover { 
+   color: white;  
+   text-shadow: .5px .5px; 
+}
 
 .fa-contact {
    color: white;
    text-decoration : none;
    font-family: Aldrich;
-}.fa-contact:hover{ color: yellow; }
+}.fa-contact:hover { 
+   color: white;  
+   text-shadow: .5px .5px; 
+}
 
 .fa-bio {
    color: white;
    text-decoration : none;
    font-family: Aldrich;
-}.fa-bio:hover{ color: yellow; }
+}.fa-bio:hover { 
+   color: white;  
+   text-shadow: .5px .5px; 
+}
 
 
 @media screen and (max-width: 800px) {
-   #nav, .header {
+   #nav, .header, .name, .title {
       display: flex;
       flex-direction: column;
    }

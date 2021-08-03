@@ -3,19 +3,21 @@
     align-items: center;
     justify-content: center;
     background-color: black;
-    padding: 10px;
+    padding: 5px;
     color: white;
 }
 
  figCaption {
-     color: white;
-     text-indent: 2em;
-     font-size: 18pt;
-     padding: 2em;
+    font-family:fantasy;
+    color: white;
+    text-indent: 2em;
+    font-size: 16pt;
+    padding: 2%;
  }
 
  @media screen and (max-width: 800px) {
      figCaption {
-        font-size: 12pt;
+        font-size: 14pt;
+        
      }
  }
