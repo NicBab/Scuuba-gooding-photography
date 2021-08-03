@@ -5,7 +5,6 @@
    align-items: center;
    justify-content: end;
    padding: 5px;
-  
 }
 
 .name {
@@ -17,48 +16,57 @@
    color: white;
 }
 
+#nav {
+   display: flex;
+   align-items: center;
+   justify-content: end;
+   padding: 5px;
+}
+
 .fa-title {
    color: white;
    text-decoration : none;
    margin-right: 2rem;
    font-family: Aldrich;
-}
+}.fa-title:hover{ color: yellow; }
 
 .fa-home {
    color: white;
    text-decoration : none;
    font-family: Aldrich;
-}
+}.fa-home:hover { color: yellow; }
 
 .fa-gallery {
    color: white;
    text-decoration : none;
    font-family: Aldrich;
-}
+}.fa-gallery:hover{ color: yellow; }
 
 .fa-shop {
    color: white;
    text-decoration : none;
    font-family: Aldrich;
-}
+}.fa-shop:hover{ color: yellow; }
 
 .fa-contact {
    color: white;
    text-decoration : none;
    font-family: Aldrich;
-}
+}.fa-contact:hover{ color: yellow; }
 
 .fa-bio {
    color: white;
    text-decoration : none;
    font-family: Aldrich;
+}.fa-bio:hover{ color: yellow; }
+
+
+@media screen and (max-width: 800px) {
+   #nav, .header {
+      display: flex;
+      flex-direction: column;
+   }
 }
-
-.fa-cart {
-   color: white;
-}
-
-
 
 
 

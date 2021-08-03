@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { Home, Gallery, Shop, Contact, Bio } from './pages/index'
 import { Header, Footer } from './components/index'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "react-image-gallery/styles/css/image-gallery.css";
 import './App.css';
 
 function App() {

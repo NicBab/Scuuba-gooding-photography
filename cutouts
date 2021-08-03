@@ -1,3 +1,35 @@
+
+    // const [images, setImages] = useState([])
+    // const URL = "https://www.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=3f13adb9286a16ee5e0c920559b467e2&photoset_id=72157719611535121&format=json&nojsoncallback=1&auth_token=72157719681425915-dfa9a700acf85a90&api_sig=a6ccca5c112008801312b92cd3c6815b"
+
+    // useEffect(() => {
+    //     axios.get(URL).then((res) => {
+    //         setImages(res.data.photoset.photo)
+    //     })
+    // }, [])
+
+    // return <ImageGallery key={images.id} items={images} />
+
+
+        const URL = "https://picsum.photos"
+
+    let images = [
+        {
+            original: `${URL}/id/1018/1000/600/`,
+            thumbnail: `${URL}/id/1018/250/150/`,
+        },
+        {
+            original: `${URL}/id/1015/1000/600/`,
+            thumbnail: `${URL}/id/1015/250/150/`,
+        },
+        {
+            original: `${URL}/id/1019/1000/600/`,
+            thumbnail: `${URL}/id/1019/250/150/`,
+        },
+    ]; 
+
+    return <ImageGallery items={images} />
+   
    // import React from 'react'
 // import kremmlingSunsetPano from '../images/kremmlingsunsetpano.jpg'
 // import spoutingRockMoonrise from '../images/spoutingrockmoonrise.jpg'

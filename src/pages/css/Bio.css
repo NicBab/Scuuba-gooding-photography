@@ -13,3 +13,9 @@
      font-size: 18pt;
      padding: 2em;
  }
+
+ @media screen and (max-width: 800px) {
+     figCaption {
+        font-size: 12pt;
+     }
+ }
