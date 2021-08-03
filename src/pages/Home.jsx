@@ -6,16 +6,16 @@ import mesaSunBurst from '../images/MesaSunBurst.jpg'
 const Home = () => {
     return (
         <>
-          <Container 
-            className="d-flex justify-content-center" 
-            style={{maxWidth: "100vw", maxHeight: "80vh"}}>
+          {/* <Container 
+            className="d-flex justify-content-center"
+            style={{maxWidth: "100vw", height: "auto"}}> */}
             <div className="homeImg">
-                <img className="img-fluid"
-                    src={mesaSunBurst}
-                    alt="Mesa SunBurst">
+                <img style={{maxWidth: "100%", height: "auto"}}
+                     src={mesaSunBurst}
+                     alt="Mesa SunBurst">
                 </img>
              </div>
-          </Container>
+          {/* </Container> */}
        </>
     )
 }

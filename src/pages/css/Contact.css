@@ -1,6 +1,6 @@
 .contact {
-    color: white;
-    font-size: 2rem;
+    color: rgb(230, 230, 168);
+    font-size: 20pt;
     padding: 2em;
 }
 
@@ -12,6 +12,6 @@
 @media screen and (max-width: 800px) {
     .contact {
         font-size: 14pt;
-        color: yellow;
+        color: rgb(230, 230, 168);
     }
 }

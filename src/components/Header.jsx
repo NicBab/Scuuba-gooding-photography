@@ -15,7 +15,7 @@ const Header = () => {
            <div className="name">
             <Link to="/" className="fa-title">SG Photography</Link>
              <SocialIcons />
-           </div>
+            </div>
            <div id="nav">
               <Nav.Item>
                 <Nav.Link><Link to="/" className="fa-home">Home</Link></Nav.Link>
