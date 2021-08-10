@@ -10,8 +10,7 @@ const Contact = () => {
     return (
         <>
           <div className="contact" style={{textAlign: "center"}}>
-            Contact:
-            Email sgphotography.co@gmail.com
+            Email: sgphotography.co@gmail.com
             <div className="email" onClick={onMailClick}>{mail}</div>
           </div>
         </>
