@@ -6,10 +6,6 @@ import SocialIcons from './SocialIcons'
 
 const Header = () => {
 
-  const onShopClick = () => {
-    window.open("https://sgphotography.bigcartel.com/product/natures-window-fine-art-print")
-  }
-
     return (
         <div className="header">
            <div className="name">
@@ -21,10 +17,10 @@ const Header = () => {
                 <Nav.Link><Link to="/" className="fa-home">Home</Link></Nav.Link>
                </Nav.Item>
               <Nav.Item>
-                  <Nav.Link><Link to="/gallery" className="fa-gallery">Gallery</Link></Nav.Link>
+                <Nav.Link><Link to="/gallery" className="fa-gallery">Gallery</Link></Nav.Link>
                 </Nav.Item>
               <Nav.Item>
-                <Nav.Link><a href="shop" onClick={onShopClick} className="fa-shop">Shop</a></Nav.Link>
+                <Nav.Link><Link to ="/shop" className="fa-shop">Shop</Link></Nav.Link>
                </Nav.Item>
                <Nav.Item>
                 <Nav.Link><Link to="/bio" className="fa-bio">Bio</Link></Nav.Link>
