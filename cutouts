@@ -1,4 +1,8 @@
-
+  // const onShopClick = () => {
+  //   window.open("https://sgphotography.bigcartel.com/product/natures-window-fine-art-print")
+  // }
+    
+    
     // const [images, setImages] = useState([])
     // const URL = "https://www.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=3f13adb9286a16ee5e0c920559b467e2&photoset_id=72157719611535121&format=json&nojsoncallback=1&auth_token=72157719681425915-dfa9a700acf85a90&api_sig=a6ccca5c112008801312b92cd3c6815b"
 
