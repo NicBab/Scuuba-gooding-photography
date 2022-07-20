@@ -1,31 +1,59 @@
-import axios from 'axios'
-import React, { useEffect, useState } from 'react'
 import ImageGallery from 'react-image-gallery'
 import './css/ImgCarousel.css'
+import bistimilky from "../images/bistimilky.jpg"
+import foggyMeadow from "../images/foggymeadow3.jpg"
+import woodwindowfinal from "../images/woodwindowfinal.jpg"
+import  thunderheadsunset from "../images/ThunderheadSunset.jpg"
+import spoutinrockmoonrise from "../images/spoutingrockmoonrise.jpg"
+import soprisflowers from "../images/soprisflowers3.jpg"
+import lakesunset from "../images/Sloans Lake Sunset 1.jpg"
+import mesasunburst from "../images/MesaSunBurst.jpg"
+import meatsoprislake from "../images/meatsoprislake.jpg"
+import kremmlingsunset from "../images/kremmlingsunsetpano.jpg"
 
 const ImgCarousel = () => {
-    const URL = "https://picsum.photos"
-    // const [images, setImages] = useState([])
-
-    // useEffect(() => {
-    //     axios.get(URL).then((res) => {
-    //         setImages(res.data.images)
-    //     })
-    // })
-    
 
     let images = [
+ 
         {
-            original: `${URL}/id/1018/1000/600/`,
-            thumbnail: `${URL}/id/1018/250/150/`,
+            original: foggyMeadow,
+            thumbnail: foggyMeadow,
         },
         {
-            original: `${URL}/id/1015/1000/600/`,
-            thumbnail: `${URL}/id/1015/250/150/`,
+            original: bistimilky,
+            thumbnail: bistimilky,
         },
         {
-            original: `${URL}/id/1019/1000/600/`,
-            thumbnail: `${URL}/id/1019/250/150/`,
+            original: woodwindowfinal,
+            thumbnail: woodwindowfinal,
+        },
+        {
+            original: thunderheadsunset,
+            thumbnail: thunderheadsunset,
+        },
+        {
+            original: spoutinrockmoonrise,
+            thumbnail: spoutinrockmoonrise,
+        },
+        {
+            original: soprisflowers,
+            thumbnail: soprisflowers,
+        },
+        {
+            original: lakesunset,
+            thumbnail: lakesunset,
+        },
+        {
+            original: mesasunburst,
+            thumbnail: mesasunburst,
+        },
+        {
+            original: meatsoprislake,
+            thumbnail: meatsoprislake,
+        },
+        {
+            original: kremmlingsunset,
+            thumbnail: kremmlingsunset,
         },
     ]; 
 
@@ -35,6 +63,13 @@ const ImgCarousel = () => {
 export default ImgCarousel
 
 
+
+
+//original api call 
+// {
+//     original: `${URL}/id/1018/1000/600/`,
+//     thumbnail: `${URL}/id/1018/250/150/`,
+// },
 
 
 

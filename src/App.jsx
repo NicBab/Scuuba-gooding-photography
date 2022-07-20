@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { Home, Gallery, Shop, Contact, Bio } from './pages/index'
 import { Header, Footer } from './components/index'

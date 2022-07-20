@@ -1,9 +1,17 @@
 .shop {
     background-color: rgb(128, 122, 122);
-    cursor: pointer;
-    color: blue;
+    padding: 10px;
 }
 
 .bigCartelLink {
     background-color: rgb(128, 122, 122);
+}
+
+.Here{
+    font-size: 14pt;
+    color: white;
+    cursor: pointer;
+    color: blue;
+    background-color: rgb(128, 122, 122);
+    margin-left: 4px;
 }
